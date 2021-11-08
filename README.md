@@ -9,19 +9,19 @@ Also we get to select colors as user input, with the selected colors users can c
 
 ### 2. Implementation Plan
 ## Step1. Convert image into grayscale
-    Distract all the color images to make it easy to detect edges and  separate 
-    regions into several parts. 
+    - Distract all the color images to make it easy to detect edges and  separate 
+    - regions into several parts. 
 	
 ## Step2. Split areas into 7-8 by brightness level 
-    Classify the regions according to the brightness level,  
-    these separated areas will be colored as the same region.
-    We are going to use some edge, vertex detection methods and so on.
+    - Classify the regions according to the brightness level,  
+    - these separated areas will be colored as the same region.
+    - We are going to use some edge, vertex detection methods and so on.
 
 ## Step3. Label splitted areas
-    With the categorized brightness level we can make distinct labeled areas in the image.
-    Each of the Different labeled areas will be colored with variable tone
+    - With the categorized brightness level we can make distinct labeled areas in the image.
+    - Each of the Different labeled areas will be colored with variable tone
 
 ## Step4. Color splitted areas of image with preset palette due to informations
-    Coloring each labeled area with presetted palette color. 
-    We can make a preset with User’s personal taste within a variable pool.
+    - Coloring each labeled area with presetted palette color. 
+    - We can make a preset with User’s personal taste within a variable pool.
 	
