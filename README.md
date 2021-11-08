@@ -25,7 +25,13 @@ Also we get to select colors as user input, with the selected colors users can c
     - Coloring each labeled area with presetted palette color. 
     - We can make a preset with User’s personal taste within a variable pool.
 	
-### 3. Timeline (Schedule)
+	
+### 3. Roll distribution
+- step 1 & step 2: 윤석원, 박성민
+- step 3 & step 4: 유승훈, 조중현
+
+
+### 4. Timeline (Schedule)
 - 11/13 : Implementing each algorithm.
 - 11/20 : Combining algorithm together, and debug
 - 11/24 : Completing project and adding process examples, Making announcement.
