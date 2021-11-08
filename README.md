@@ -13,7 +13,8 @@ Also we get to select colors as user input, with the selected colors users can c
     regions into several parts. 
 	
 ## Step2. Split areas into 7-8 by brightness level 
-    Classify the regions according to the brightness level, these separated areas will be colored as the same region.
+    Classify the regions according to the brightness level,  
+    these separated areas will be colored as the same region.
     We are going to use some edge, vertex detection methods and so on.
 
 ## Step3. Label splitted areas
