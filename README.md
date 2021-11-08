@@ -26,7 +26,7 @@ Also we get to select colors as user input, with the selected colors users can c
     - We can make a preset with User’s personal taste within a variable pool.
 	
 ### 3. Timeline (Schedule)
-## 11/13 : Implementing each algorithm.
-## 11/20 : Combining algorithm together, and debug
-## 11/24 : Completing project and adding process examples, Making announcement.
+- 11/13 : Implementing each algorithm.
+- 11/20 : Combining algorithm together, and debug
+- 11/24 : Completing project and adding process examples, Making announcement.
 
