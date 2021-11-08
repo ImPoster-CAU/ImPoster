@@ -1,7 +1,7 @@
 # ImPoster
 
 ### 1. Project Goal
-![image](https://user-images.githubusercontent.com/29995264/140717986-34626cfa-64db-4c90-9236-3d60ba2b5622.png)
+![image](https://user-images.githubusercontent.com/29995264/140717986-34626cfa-64db-4c90-9236-3d60ba2b5622.png)  
 What we are going to do is to transform images taken from cameras into fancy posters such as modern art images.  
 Our program considers the direction and brightness of the light. After that, depending on the analysis it colors the optimal position at the image.   
 Like the example below, Our program will detect the same regions and color it by shadow.  
