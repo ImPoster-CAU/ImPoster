@@ -3,7 +3,7 @@ import numpy as np
 import funct
 
 # 여기에서 파일명을 바꾸며 출력해주고 있음!
-img = cv2.imread("./image/obama.jpg")
+img = cv2.imread("./image/shirtman.png")
 img = funct.image2gray(img)
 img = cv2.resize(img,(int(((800*img.shape[1])/img.shape[0])),800), interpolation = cv2.INTER_CUBIC)
 img = funct.devideLevel(img)

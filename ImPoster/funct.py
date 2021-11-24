@@ -65,23 +65,7 @@ def devideLevel(src):
 
             else :
                 dst[y, x] = 5
-                
-    # # edge preserving
-    # dir = [-1, 1, 0, 0]
-    # for y in range(0, height):
-    #     for x in range(0, width):
-    #         flag = -1
-    #         for d in range(0, 4):
-    #             # print(y+dir[d])
-    #             # print(x+dir[3-d])
-    #             if y+dir[d] >= 0 and y+dir[d] < height and x+dir[3-d] > 0 and x+dir[3-d] < width: 
-    #                 if dst[y, x] is dst[y+dir[d], x+dir[3-d]]:
-    #                     flag = d
-    #         if flag == -1:
-    #             dst[y, x] == dst[y+dir[flag], x+dir[3-flag]]
-    #             print("c")
-
-    
+   
     return dst
 
 def softenImage(src):
