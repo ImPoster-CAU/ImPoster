@@ -130,7 +130,7 @@ def colorImage(src):
     #파격적인 색상조합을 추가해주기 바랍니당
     height, width, color = src.shape
 
-    palette2 = [
+    palette1 = [
         (0, 0, 0), #검은색
         (164, 46, 105), #보라색
         (13, 100, 210), #귤색
@@ -139,7 +139,7 @@ def colorImage(src):
         (242, 250, 253) #흰색
     ]
 
-    palette3 = [
+    palette2 = [
         (0, 0, 0), #블랙
         (40, 41, 38), #검은색
         (125, 99, 22), #심해색
@@ -148,7 +148,7 @@ def colorImage(src):
         (255,  248, 178) #연노랑
     ]
 
-    palette4 = [
+    palette3 = [
         (148, 58, 108), #보라
         (58, 19, 189), #목젖색
         (233,  151, 35), #뽕따꼭따리
@@ -161,6 +161,12 @@ def colorImage(src):
     dst = src.copy()
     for y in range(0, height):
         for x in range(0, width):
+            dst[y, x] = palette1[src.item(y, x, 0)]
+    cv2.imshow("1", dst)
+
+    dst = src.copy()
+    for y in range(0, height):
+        for x in range(0, width):
             dst[y, x] = palette2[src.item(y, x, 0)]
     cv2.imshow("2", dst)
 
@@ -169,11 +175,5 @@ def colorImage(src):
         for x in range(0, width):
             dst[y, x] = palette3[src.item(y, x, 0)]
     cv2.imshow("3", dst)
-
-    dst = src.copy()
-    for y in range(0, height):
-        for x in range(0, width):
-            dst[y, x] = palette4[src.item(y, x, 0)]
-    cv2.imshow("4", dst)
 
     return dst
