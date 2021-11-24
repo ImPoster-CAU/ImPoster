@@ -65,6 +65,21 @@ def devideLevel(src):
 
             else :
                 dst[y, x] = 5
+                
+    # # edge preserving
+    # dir = [-1, 1, 0, 0]
+    # for y in range(0, height):
+    #     for x in range(0, width):
+    #         flag = -1
+    #         for d in range(0, 4):
+    #             # print(y+dir[d])
+    #             # print(x+dir[3-d])
+    #             if y+dir[d] >= 0 and y+dir[d] < height and x+dir[3-d] > 0 and x+dir[3-d] < width: 
+    #                 if dst[y, x] is dst[y+dir[d], x+dir[3-d]]:
+    #                     flag = d
+    #         if flag == -1:
+    #             dst[y, x] == dst[y+dir[flag], x+dir[3-flag]]
+    #             print("c")
 
     
     return dst
@@ -131,16 +146,6 @@ def colorImage(src):
     #파격적인 색상조합을 추가해주기 바랍니당
     height, width, color = src.shape
 
-    # **못생긴 팔레트라 변경 필요함!**
-    palette1 = [
-        (0, 0, 0), #검은색
-        (77, 50, 0), #남색
-        (163, 153, 118), #푸른색
-        (37,  23, 224),#빨간색
-        (169, 229, 253), #아이보리
-        (210,  210, 238) #흰색
-    ]
-
     palette2 = [
         (0, 0, 0), #검은색
         (164, 46, 105), #보라색
@@ -168,13 +173,6 @@ def colorImage(src):
         (208, 246, 250) #귤피색
         #여기에 팔레트 색상 추가
     ]
-
-    # 못생긴 팔레트라 변경 필요함!
-    # dst = src.copy()
-    # for y in range(0, height):
-    #     for x in range(0, width):
-    #         dst[y, x] = palette1[src.item(y, x, 0)]
-    # cv2.imshow("1", dst)
 
     dst = src.copy()
     for y in range(0, height):
