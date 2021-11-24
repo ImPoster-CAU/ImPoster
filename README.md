@@ -36,7 +36,8 @@ Also we get to select colors as user input, with the selected colors users can c
 - 11/20 : Combining algorithm together, and debug
 - 11/24 : Completing project and adding process examples, Making announcement.
 
-### 5. Result of Program 
-![image](https://user-images.githubusercontent.com/29995264/143221043-d02ecc1b-1b37-4cc9-8120-51341bfd5ab0.png)
+### 5. Result of Program  
+![image](https://user-images.githubusercontent.com/29995264/143221490-458d3048-bc29-46ce-97f8-c092019d300f.png)
+
 
 
